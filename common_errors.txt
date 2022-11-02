@@ -1,0 +1,5 @@
+mongodb --> topology error --> 
+const client = new MongoClient(uri, { useUnifiedTopology: true}, { useNewUrlParser: true }, { connectTimeoutMS: 30000 }, { keepAlive: 1});
+npm socket error --> 
+npm config set fetch-retry-mintimeout 20000
+npm config set fetch-retry-maxtimeout 120000
